@@ -15,3 +15,17 @@ function friend(friends) {
   return friends.filter(name => name.length === 4);
 }
 
+// friends is an array of names- gives you an idea of what tools you have access too
+//exactly 4 characters in name to pass
+// if more or less than 4 characters return false
+// if the name is in the friends array return true
+// ["Chad", "Bob", "Alice", "johnathan", "Rex"] //["chad"]
+
+// take friends array
+// returning array with only values containing 4 characters
+
+function friend(friends){
+
+  return friends.filter((word) => word.length === 4)
+}
+
